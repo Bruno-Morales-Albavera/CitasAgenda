@@ -1,0 +1,14 @@
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\bin\Debug\net8.0\DL.deps.json
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\bin\Debug\net8.0\DL.runtimeconfig.json
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\bin\Debug\net8.0\DL.dll
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\bin\Debug\net8.0\DL.pdb
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\obj\Debug\net8.0\DL.csproj.AssemblyReference.cache
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\obj\Debug\net8.0\DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\obj\Debug\net8.0\DL.AssemblyInfoInputs.cache
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\obj\Debug\net8.0\DL.AssemblyInfo.cs
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\obj\Debug\net8.0\DL.csproj.CoreCompileInputs.cache
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\obj\Debug\net8.0\DL.dll
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\obj\Debug\net8.0\refint\DL.dll
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\obj\Debug\net8.0\DL.pdb
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\obj\Debug\net8.0\DL.genruntimeconfig.cache
+C:\Users\pokeb\OneDrive\Escritorio\Bruno Morales Albavera\AgendaDeCitas\DL\obj\Debug\net8.0\ref\DL.dll

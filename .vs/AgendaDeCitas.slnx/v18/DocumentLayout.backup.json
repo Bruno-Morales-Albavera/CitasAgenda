@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18214A11-523E-45E1-8DA5-CBB4ACD93405}|PL\\PL.csproj|c:\\users\\pokeb\\onedrive\\escritorio\\bruno morales albavera\\agendadecitas\\pl\\views\\citas\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18214A11-523E-45E1-8DA5-CBB4ACD93405}|PL\\PL.csproj|solutionrelative:pl\\views\\citas\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18214A11-523E-45E1-8DA5-CBB4ACD93405}|PL\\PL.csproj|c:\\users\\pokeb\\onedrive\\escritorio\\bruno morales albavera\\agendadecitas\\pl\\views\\citas\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18214A11-523E-45E1-8DA5-CBB4ACD93405}|PL\\PL.csproj|solutionrelative:pl\\views\\citas\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18214A11-523E-45E1-8DA5-CBB4ACD93405}|PL\\PL.csproj|c:\\users\\pokeb\\onedrive\\escritorio\\bruno morales albavera\\agendadecitas\\pl\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18214A11-523E-45E1-8DA5-CBB4ACD93405}|PL\\PL.csproj|solutionrelative:pl\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E988875-A3D7-4DDE-AAE6-A196A886CDBD}|BL\\BL.csproj|c:\\users\\pokeb\\onedrive\\escritorio\\bruno morales albavera\\agendadecitas\\bl\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E988875-A3D7-4DDE-AAE6-A196A886CDBD}|BL\\BL.csproj|solutionrelative:bl\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3448352-27E1-4411-B2BA-0DA3566BB8BD}|DL\\DL.csproj|c:\\users\\pokeb\\onedrive\\escritorio\\bruno morales albavera\\agendadecitas\\dl\\citum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3448352-27E1-4411-B2BA-0DA3566BB8BD}|DL\\DL.csproj|solutionrelative:dl\\citum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3448352-27E1-4411-B2BA-0DA3566BB8BD}|DL\\DL.csproj|c:\\users\\pokeb\\onedrive\\escritorio\\bruno morales albavera\\agendadecitas\\dl\\citasagendacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3448352-27E1-4411-B2BA-0DA3566BB8BD}|DL\\DL.csproj|solutionrelative:dl\\citasagendacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E610A18-84B7-4148-9231-4EE61F2AB4C7}|ML\\ML.csproj|c:\\users\\pokeb\\onedrive\\escritorio\\bruno morales albavera\\agendadecitas\\ml\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E610A18-84B7-4148-9231-4EE61F2AB4C7}|ML\\ML.csproj|solutionrelative:ml\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E610A18-84B7-4148-9231-4EE61F2AB4C7}|ML\\ML.csproj|c:\\users\\pokeb\\onedrive\\escritorio\\bruno morales albavera\\agendadecitas\\ml\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E610A18-84B7-4148-9231-4EE61F2AB4C7}|ML\\ML.csproj|solutionrelative:ml\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\PL\\Views\\Citas\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Citas\\GetAll.cshtml",
+              "ToolTip": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\PL\\Views\\Citas\\GetAll.cshtml",
+              "RelativeToolTip": "PL\\Views\\Citas\\GetAll.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-26T20:13:41.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\PL\\Views\\Citas\\Form.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Citas\\Form.cshtml",
+              "ToolTip": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\PL\\Views\\Citas\\Form.cshtml",
+              "RelativeToolTip": "PL\\Views\\Citas\\Form.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-26T20:13:31.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CitasController.cs",
+              "DocumentMoniker": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\PL\\Controllers\\CitasController.cs",
+              "RelativeDocumentMoniker": "PL\\Controllers\\CitasController.cs",
+              "ToolTip": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\PL\\Controllers\\CitasController.cs",
+              "RelativeToolTip": "PL\\Controllers\\CitasController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAnwDQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T20:10:26.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Citum.cs",
+              "DocumentMoniker": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\DL\\Citum.cs",
+              "RelativeDocumentMoniker": "DL\\Citum.cs",
+              "ToolTip": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\DL\\Citum.cs",
+              "RelativeToolTip": "DL\\Citum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T20:04:13.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Citas.cs",
+              "DocumentMoniker": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\BL\\Citas.cs",
+              "RelativeDocumentMoniker": "BL\\Citas.cs",
+              "ToolTip": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\BL\\Citas.cs",
+              "RelativeToolTip": "BL\\Citas.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAUwGYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:26:13.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\ML\\Cita.cs",
+              "RelativeDocumentMoniker": "ML\\Cita.cs",
+              "ToolTip": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\ML\\Cita.cs",
+              "RelativeToolTip": "ML\\Cita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:25:48.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CitasAgendaContext.cs",
+              "DocumentMoniker": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\DL\\CitasAgendaContext.cs",
+              "RelativeDocumentMoniker": "DL\\CitasAgendaContext.cs",
+              "ToolTip": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\DL\\CitasAgendaContext.cs",
+              "RelativeToolTip": "DL\\CitasAgendaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:25:34.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\ML\\Result.cs",
+              "RelativeDocumentMoniker": "ML\\Result.cs",
+              "ToolTip": "C:\\Users\\pokeb\\OneDrive\\Escritorio\\Bruno Morales Albavera\\AgendaDeCitas\\ML\\Result.cs",
+              "RelativeToolTip": "ML\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:22:44.386Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

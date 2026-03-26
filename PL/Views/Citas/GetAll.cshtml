@@ -1,0 +1,86 @@
+﻿@model ML.Cita
+@{
+    ViewBag.Title = "Citas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-md-12">
+            @Html.ActionLink("Agregar Cita", "Form", "Citas", null, new { @class = "btn btn-success" })
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <form asp-action="ConsultarPorFecha" method="get" class="form-inline">
+            <label for="fecha">Consultar por fecha:</label>
+            <input type="date" name="fecha" class="form-control mx-2" />
+            <button type="submit" class="btn btn-info">Buscar</button>
+        </form>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            @if (Model.Citas != null && Model.Citas.Any())
+            {
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Cliente</th>
+                            <th>Fecha</th>
+                            <th>Hora</th>
+                            <th>Duración</th>
+                            <th>Estatus</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (ML.Cita cita in Model.Citas)
+                        {
+                            <tr>
+                                <td>@cita.NombreCliente</td>
+                                <td>@cita.Fecha</td>
+                                <td>@cita.Hora</td>
+                                <td>@cita.DuracionMinutos min</td>
+                                <td>
+                                    <input type="checkbox"
+                                           class="toggle-status"
+                                           data-id="@cita.IdCita"
+                                    @(cita.Estatus == "Agendada" ? "checked" : "") />
+                                    <span>@cita.Estatus</span>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <div class="alert alert-danger">
+                    No existen registros. Error: @ViewBag.Mensaje
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).on("change", ".toggle-status", function () {
+    var idCita = $(this).data("id");
+    var isChecked = $(this).is(":checked");
+    var nuevoEstatus = isChecked ? "Agendada" : "Cancelada";
+
+    $.ajax({
+    url: '/Citas/ActualizarEstatus',
+    type: 'POST',
+    data: { idCita: idCita, estatus: nuevoEstatus },
+    success: function (response) {
+    // Actualiza el texto al lado del switch
+    $(event.target).next("span").text(nuevoEstatus);
+    },
+    error: function () {
+    alert("Error al actualizar el estatus.");
+    }
+    });
+    });
+</script>

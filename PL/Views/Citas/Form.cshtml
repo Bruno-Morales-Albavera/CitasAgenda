@@ -1,0 +1,40 @@
+﻿@model ML.Cita
+
+<div class="container">
+    <h2>Agregar Cita</h2>
+
+    @using (Html.BeginForm("Form", "Citas", FormMethod.Post))
+    {
+        <div class="row">
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.NombreCliente)
+                @Html.TextBoxFor(model => model.NombreCliente, new { @class = "form-control" })
+
+                @Html.LabelFor(model => model.Fecha)
+                <input type="date" name="Fecha" class="form-control"
+                       value="@Model.Fecha.ToString("yyyy-MM-dd")" />
+
+                @Html.LabelFor(model => model.Hora)
+                <input type="time" name="Hora" class="form-control"
+                       value="@Model.Hora.ToString(@"hh\:mm")" />
+
+                @Html.LabelFor(model => model.DuracionMinutos)
+                @Html.TextBoxFor(model => model.DuracionMinutos, new { @class = "form-control", type = "number" })
+            </div>
+
+            <div class="col-md-6">
+                @Html.LabelFor(model => model.Estatus)
+                @Html.TextBoxFor(model => model.Estatus, new { @class = "form-control", @readonly = "readonly" })
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <button type="submit" class="btn btn-success">Guardar</button>
+            </div>
+            <div class="col-md-6">
+                @Html.ActionLink("Regresar", "GetAll", "Citas", null, new { @class = "btn btn-danger" })
+            </div>
+        </div>
+    }
+</div>
